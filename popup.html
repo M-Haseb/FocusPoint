@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusTube Settings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 FocusTube</h1>
+        <p class="subtitle">Study Mode Active</p>
+
+        <div class="input-group">
+            <input type="text" id="channelInput" placeholder="Enter Channel Name (e.g. CrashCourse)">
+            <button id="addBtn">Add</button>
+        </div>
+        <small class="hint">Enter exact channel name as seen on YouTube.</small>
+
+        <div class="list-container">
+            <h3>Allowed Channels:</h3>
+            <ul id="channelList">
+            </ul>
+            <div id="emptyState" class="hidden">No channels added. All videos are currently hidden!</div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
